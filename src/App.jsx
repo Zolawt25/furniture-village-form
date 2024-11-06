@@ -98,7 +98,7 @@ const App = () => {
           onClick={() => handleLanguageToggle("amharic")}
           style={{
             ...styles.languageButton,
-            backgroundColor: language === "amharic" ? "#008080" : "#0000003a",
+            backgroundColor: language === "amharic" ? "#333" : "#0000003a",
             color: language === "amharic" ? "#fff" : "#fff",
           }}
         >
@@ -109,7 +109,7 @@ const App = () => {
           onClick={() => handleLanguageToggle("english")}
           style={{
             ...styles.languageButton,
-            backgroundColor: language === "english" ? "#008080" : "#0000003a",
+            backgroundColor: language === "english" ? "#333" : "#0000003a",
             color: language === "english" ? "#fff" : "#fff",
           }}
         >
@@ -233,7 +233,7 @@ const styles = {
     alignItems: "center",
     fontFamily: "Arial, sans-serif",
     padding: "20px",
-    backgroundImage: "url('/bg.jpg')",
+    backgroundImage: "url('/a.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "100vh",
@@ -264,7 +264,7 @@ const styles = {
     padding: "10px",
   },
   form: {
-    backgroundColor: "#ffffffcc",
+    backgroundColor: "#8888",
     padding: "30px",
     borderRadius: "10px",
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.7)",
@@ -277,7 +277,7 @@ const styles = {
   },
   label: {
     fontSize: "16px",
-    color: "#333",
+    color: "#fff",
     marginBottom: "5px",
     display: "block",
   },
@@ -307,7 +307,7 @@ const styles = {
     padding: "10px 20px",
     fontSize: "16px",
     color: "#fff",
-    backgroundColor: "#008080",
+    backgroundColor: "#333",
     border: "none",
     borderRadius: "5px",
     cursor: "pointer",
