@@ -127,18 +127,6 @@ const App = () => {
       <form style={styles.form} onSubmit={handleSubmit}>
         <div style={styles.inputGroup}>
           <label style={styles.label}>
-            {language === "english" ? "Full Name" : "ሙሉ ስም"}
-          </label>
-          <input
-            type="tel"
-            name="name"
-            style={styles.input}
-            value={formData.name}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div style={styles.inputGroup}>
-          <label style={styles.label}>
             {language === "english" ? "Phone" : "ስልክ"} (
             {language === "english" ? "required" : "አስፈላጊ"})
           </label>
@@ -264,7 +252,7 @@ const styles = {
     padding: "10px",
   },
   form: {
-    backgroundColor: "#8888",
+    backgroundColor: "#3333",
     padding: "30px",
     borderRadius: "10px",
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.7)",
